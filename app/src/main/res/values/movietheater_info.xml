@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theater_names">
+        <item>Regal Deer Park Stadium 16 IMAX &amp; RPX</item>
+        <item>AMC Loews Stony Brook 17</item>
+        <item>Regal Ronkonkoma Stadium 9</item>
+        <item>Showcase Cinema de Lux Farmingdale</item>
+        <item>UA Farmingdale Stadium 10</item>
+        <item>Island 16: Cinema de Lux</item>
+        <item>Sayville Theatres</item>
+        <item>AMC Levittown 10</item>
+        <item>Showcase Cinema de Lux Broadway</item>
+
+    </string-array>
+
+
+    <string-array name="theater_addresses">
+        <item>1050 The Arches Circle, Deer Park, NY 11729</item>
+        <item>37 Wall Street, Huntington, NY 11743</item>
+        <item>2196 Nesconset Highway, Stony Brook, NY 11790</item>
+        <item>565 Portion Road, Ronkonkoma, NY 11779</item>
+        <item>1001 Broad Hollow Road, Farmingdale, NY 11735</item>
+        <item>20 Michael Avenue, Farmingdale, NY 11735</item>
+        <item>185 Morris Avenue L.I.E. Exit 61 (E) or Exit 62 (W) and Route 97, Holtsville, NY 11742</item>
+        <item>103 Railroad Avenue, Sayville, NY 11782</item>
+        <item>3585 Hempstead Tpke., Levittown, NY 11756</item>
+        <item>955 Broadway Mall Routes 106 &amp; 107, Hicksville, NY 11801</item>
+    </string-array>
+
+
+
+</resources>

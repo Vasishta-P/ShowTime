@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+   <string name="popular_url">https://api.themoviedb.org/3/movie/popular?api_key=19b4af337883c71bbfaa3e2c2886ed78</string>
+    <string name="upcoming_url">https://api.themoviedb.org/3/movie/upcoming?api_key=19b4af337883c71bbfaa3e2c2886ed78</string>
+    <string name="top_rated_url">https://api.themoviedb.org/3/movie/top_rated?api_key=19b4af337883c71bbfaa3e2c2886ed78</string>
+    <string name="now_playing_url">https://api.themoviedb.org/3/movie/now_playing?api_key=19b4af337883c71bbfaa3e2c2886ed78</string>
+    <string name="latest_url">https://api.themoviedb.org/3/movie/latest?api_key=19b4af337883c71bbfaa3e2c2886ed78</string>
+    <string name="get_reviews">/reviews</string>
+    <string name="base_poster_url">http://image.tmdb.org/t/p/w500</string>
+    <string name="genre_list_api">https://api.themoviedb.org/3/genre/movie/list</string>
+    <string name="language_api_frag">&amp;language=en-US</string>
+
+  <string name="token_api_new">https://api.themoviedb.org/3/authentication/token/new</string>
+<!-- <string name="imagetmdb_baseurl">http://image.tmdb.org/t/p/w500</string> -->
+
+
+</resources>

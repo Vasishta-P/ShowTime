@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="json_id">id</string>
+    <string name="json_original_title">original_title</string>
+    <string name="json_backdrop_path">backdrop_path</string>
+    <string name="json_poster_path">poster_path</string>
+    <string name="json_overview">overview</string>
+    <string name="json_release_date">release_date</string>
+    <string name="json_adult">adult</string>
+    <string name="json_vote_average">vote_average</string>
+    <string name="json_vote_count">vote_count</string>
+    <string name="json_genre_ids">genre_ids</string>
+    <string name="json_original_language">original_language</string>
+    <string name="json_poupularity">popularity</string>
+
+    <string name="json_name">name</string>
+
+    <string name="json_results">results</string>
+    <string name="json_genres">genres</string>
+
+</resources>

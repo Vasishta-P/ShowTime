@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_movie_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_item_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="150dp"
+                android:layout_height="220dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@color/colorAccent" />
+
+
+            <TextView
+                android:id="@+id/tv_item_title"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:singleLine="false"
+                android:text="Title:"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/img_item_photo"
+                app:layout_constraintStart_toEndOf="@id/img_item_photo"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+               />
+
+            <TextView
+                android:id="@+id/tv_short_summary"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:paddingBottom="20dp"
+                android:text="Summary"
+                android:maxLines="5"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@id/tv_item_date"
+                app:layout_constraintLeft_toRightOf="@id/img_item_photo"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@id/img_item_photo"
+                app:layout_constraintTop_toBottomOf="@id/tv_item_title" />
+
+            <TextView
+                android:id="@+id/movie_card_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/ic_star_yellow_24dp"
+                android:drawableLeft="@drawable/ic_star_yellow_24dp"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tv_item_date"
+                app:layout_constraintLeft_toRightOf="@id/img_item_photo"
+                app:layout_constraintStart_toEndOf="@id/img_item_photo" />
+
+            <TextView
+                android:id="@+id/release_hold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/release_date"
+                app:layout_constraintBottom_toTopOf="@id/tv_item_date"
+                app:layout_constraintTop_toBottomOf="@id/movie_card_ratings"
+                app:layout_constraintLeft_toRightOf="@id/img_item_photo"
+                app:layout_constraintStart_toEndOf="@id/img_item_photo"
+                tools:text="@string/release_date" />
+
+            <TextView
+                android:id="@+id/tv_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:text="test"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/img_item_photo"
+                app:layout_constraintStart_toEndOf="@id/img_item_photo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <Button
+                android:id="@+id/btn_show_details"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/show_details"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_seat_booking"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/booking"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
