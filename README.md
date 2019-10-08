@@ -1,6 +1,4 @@
 # ShowTime
-Android Application
-It's Showtime!!!
 Build a program that sends notifications about show times for potentially interesting movies
 playing at your favorite cinema. The concept of an 'interesting movie' can be derived using
 machine learning (if you watch enough movies to have good training data), or a handcrafted
